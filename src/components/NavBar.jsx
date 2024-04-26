@@ -3,7 +3,7 @@ import { useState } from 'react'
 import burgerMenu from '../assets/images/icon-menu.svg'
 import closeBtn from '../assets/images/icon-menu-close.svg'
 
-export const Navbar = () => {
+export const NavBar = () => {
     const [menuClicked, setMenuClicked] = useState(false); 
   
     const handleClick = () => {
@@ -36,3 +36,4 @@ export const Navbar = () => {
     </>
   )
 }
+
